@@ -1,0 +1,2 @@
+whatever we have in variable.tf only we have to call in module.(we can call all variables or we can call our required variables).
+in module,if we call undeclared variables,we will get error.
