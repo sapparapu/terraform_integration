@@ -83,7 +83,7 @@ resource "aws_instance" "server" {
     user        = "ubuntu"  # Replace with the appropriate username for your EC2 instance
     # private_key = file("C:/Users/veerababu/.ssh/id_rsa")
     private_key = file("~/.ssh/id_rsa")  #private key path
-    host        = "44.200.14.89"
+    host        = "self.public_ip"
   }
   # local execution procee 
  provisioner "local-exec" {
